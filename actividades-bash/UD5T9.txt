@@ -1,0 +1,14 @@
+:opcion8
+rem Se limpia el valor de la variable para las copias
+set copias=
+echo Escribe la cantidad de copias deseadas
+set /p copias=
+rem Se comprueba que copias no esté vacía
+if not defined copias goto opcion8
+rem Se obtiene el nombre del fichero sin extensión
+set nombre=%fichero:~0,-4%
+rem Se obtiene la extensión del fichero
+set extension=%fichero:~-3,3%
+for /l %%i in (1,1,%copias%) do copy %fichero% %nombre%%%i.%extension%
+pause
+goto menu

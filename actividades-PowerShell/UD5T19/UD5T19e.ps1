@@ -1,0 +1,1 @@
+Copy-Item -Path C:\PRACTICAS\Febrero\Sistemas\Tema9\Ej_2_1.txt -Destination C:\PRACTICAS\Enero\Sistemas\Ej_3_1.txt

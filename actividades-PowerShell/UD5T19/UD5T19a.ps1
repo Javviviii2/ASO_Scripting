@@ -1,0 +1,1 @@
+New-Item -Path C:\PRACTICAS\Febrero\Programacion\Practica1\Ejemplo1.txt -ItemType File

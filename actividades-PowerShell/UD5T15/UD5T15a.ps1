@@ -1,0 +1,1 @@
+Get-EventLog -LogName Application | Group-Object -Property EntryType

@@ -1,0 +1,1 @@
+Get-ChildItem -Path "C:\Program Files"  -Include a* -Recurse -ErrorAction Ignore| Format-Table -AutoSize

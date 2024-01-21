@@ -1,0 +1,1 @@
+Move-Item -Path C:\PRACTICAS\Febrero\Programacion -Destination C:\PRACTICAS\Enero

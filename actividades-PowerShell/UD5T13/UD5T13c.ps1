@@ -1,0 +1,1 @@
+Get-ChildItem -Path C:\Windows\*.txt -Recurse -Force

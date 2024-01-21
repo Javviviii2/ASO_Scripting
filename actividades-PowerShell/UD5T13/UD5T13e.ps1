@@ -1,0 +1,1 @@
+Get-ChildItem -Path "hkcu:\hkey_current_user\software\Macromedia"

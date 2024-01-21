@@ -1,0 +1,1 @@
+New-Item -Path C:\PRACTICAS\Febrero\Sistemas\Tema9\Ej_2_1.txt -ItemType File -Value "Hola, caracola"
