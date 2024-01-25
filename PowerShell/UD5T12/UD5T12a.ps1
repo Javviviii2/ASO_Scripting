@@ -1,1 +1,1 @@
-Get-Command -Name new-*
+Get-Command -Verb New

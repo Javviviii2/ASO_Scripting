@@ -1,1 +1,2 @@
-Get-ChildItem -Path "hkcu:\hkey_current_user\software\Macromedia"
+# Mostrar los objetos del registro hkcu:\hkey_current_user\software\...
+Get-ChildItem -Path "hkcu:\software" -Recurse
