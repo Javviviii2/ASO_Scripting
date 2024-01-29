@@ -4,6 +4,3 @@ $directory_path= "C:\Windows\System32\drivers\etc\services"
 Select-String -Pattern "/tcp","/udp" |
 Group-Object Pattern |
 Select-Object Count,Name
-
-
-
